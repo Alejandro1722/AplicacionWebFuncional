@@ -1,0 +1,63 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="PricipalUsuario.Master.vb" Inherits="Aplicacion_Funcional.Site1" %>
+
+<!DOCTYPE html>
+
+<html >
+<head runat="server">
+    <title>Página Funcional</title>
+
+    <!-- Estilos -->
+    <link href="../Templates/CSS/Styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+    <!-- Ir arriba--> 
+            <div class="go-top">
+                <span><i class="fas fa-arrow-up"></i></span>
+            </div>
+
+
+    <!-- Menu de navegacion--> 
+    <header id="header">
+
+        <nav class="menu">
+            <div class="logo-box">
+                <h1><a href="#">Página Funcional</a></h1>
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div class="list-container">
+                <ul class="lists">
+                    <li><a href="Bienvenida.aspx" class="activo">Inicio</a></li>  
+                    <li><a href="Nosotros.aspx" class="">Nosotros</a></li>
+                    <li><a href="Productos.aspx" class="">Productos</a></li>
+                    <li><a href="Contacto.aspx" class="">Contacto</a></li>
+                    <li><a href="Logueo.aspx" class="">Logueo</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Menu de navegacion--> 
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+
+
+    <!-- Scripts -->
+
+    <script src="https://kit.fontawesome.com/873c7fb723.js" crossorigin="anonymous"></script>
+    <script src="../Templates/JS/Principal.js"></script>
+
+</body>
+</html>

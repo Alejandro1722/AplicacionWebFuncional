@@ -1,0 +1,212 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="CopiaPrincipalUsuario.master.vb" Inherits="Aplicacion_Funcional.CopiaPrincipalUsuario" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Página Funcional</title>
+
+    <!-- Estilos -->
+    <link href="../Templates/CSS/Styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+    <!-- Ir arriba--> 
+            <div class="go-top">
+                <span><i class="fas fa-arrow-up"></i></span>
+            </div>
+
+
+    <!-- Menu de navegacion--> 
+    <header id="header">
+
+        <nav class="menu">
+            <div class="logo-box">
+                <h1><a href="#">Página Funcional</a></h1>
+                <span class="btn-menu"><i class="fas fa-bars"></i></span>
+            </div>
+
+            <div class="list-container">
+                <ul class="lists">
+                    <li><a href="#" class="activo">Inicio</a></li>
+                    <li><a href="#Acerca de nosotros" class="">Nosotros</a></li>
+                    <li><a href="#Nuestros Productos" class="">Productos</a></li>
+                    <li><a href="#Contacto" class="">Contacto</a></li>
+                    <li><a href="Logueo.aspx" class="">Logueo</a> </li>
+                </ul>
+            </div>
+        </nav>
+    
+    <!-- IMG Header -->
+        <div class="img-header">
+            <div class="welcome">
+                <h1>Bienvenidos a su página web funcional</h1>
+                <hr />
+                <p>Diseño de página web</p>
+                <button id="abajo" >Ver abajo</button>
+            </div>
+        </div>
+        <div class="skew-abajo"></div>
+
+    </header>
+
+    <!-- Menu de navegacion--> 
+
+
+    <!-- Acerca de nosotros--> 
+
+        <main>
+            <section class="acerca-de">
+                <div class="info-container">
+                    <h1 id="Acerca de nosotros">Acerca de nosotros</h1>
+                    <p> Aenean nulla ad nec imperdiet natoque ac potenti etiam luctus euismod donec facilisis, orci diam eros purus molestie posuere suspendisse nunc aptent lacinia vivamus, mauris laoreet rutrum ligula consequat fermentum habitant magna enim dis auctor. Placerat dictumst nunc venenatis cubilia nibh penatibus suspendisse turpis magna, vitae fermentum ridiculus pellentesque aenean mollis habitasse ullamcorper justo, convallis non curabitur sapien nisl laoreet consequat facilisis. Tempus vel quam libero blandit magna, in tristique dictumst mi vulputate dis, vestibulum conubia morbi sodales.</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipiscing elit nulla class iaculis, est pellentesque ut vulputate massa sociis egestas donec lectus sociosqu porta, tempor vehicula litora luctus fusce leo ad elementum nec. Commodo arcu et tincidunt ridiculus inceptos in ultrices volutpat feugiat vestibulum, magnis id platea duis sociis rutrum massa netus ante, curabitur aliquet orci interdum justo enim lacus venenatis litora. Scelerisque class lobortis commodo at sapien senectus erat sociis varius, duis conubia vivamus viverra convallis netus neque habitant.</p>
+                
+                    <div class="about-gallery">
+                        <img src="../Templates/IMG/Img1.jpg" />
+                        <img src="../Templates/IMG/Img3.jpg" />
+                        <img src="../Templates/IMG/Img4.jpg" />
+                    </div>   
+                    
+                    <div class="about-more"><button>Leer más</button></div>
+
+                </div>
+            </section>
+     
+     <!-- Nuestros productos--> 
+            
+            <section class="our-project">
+               <div class="skew-arriba"></div>
+                <div class="deg-backgorund"></div>
+
+                <div class="ejeZproject">
+                    <div class="container-project">
+                        <div class="project-title">
+                            <h2 id="Nuestros Productos">Nuestros productos</h2>
+                            <hr />
+                        </div>
+                        <div class="project-img">
+                            <img src="../Templates/IMG/Img1.jpg" />
+                            <img src="../Templates/IMG/Img2.jpg" />
+                            <img src="../Templates/IMG/Img3.jpg" />
+                            <img src="../Templates/IMG/Img4.jpg" />
+                            <img src="../Templates/IMG/Img1.jpg" />
+                            <img src="../Templates/IMG/Img2.jpg" />
+                            <img src="../Templates/IMG/Img3.jpg" />
+                            <img src="../Templates/IMG/Img4.jpg" />
+                            <img src="../Templates/IMG/Img1.jpg" />
+                            <img src="../Templates/IMG/Img2.jpg" />
+                        </div>
+                    </div>
+                 </div>
+               <div class="skew-abajo"></div>
+            </section>
+
+     <!-- Testimonios -->
+
+            <section class="testimonios">
+                <div class="testimonios-title">
+                    <h2>Testimonios</h2>
+                    <hr />
+                </div>
+
+                <div class="box-testimonios">
+
+                    <div class="card-testimonios">
+                        <div class="card-img"> <img src="../Templates/IMG/hombre.jpg" /> </div>
+                        <div class="testimonio-text">
+                            <h4>Francisco Gómez</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, nisl cursus dui libero augue imperdiet cras porttitor, aptent eu orci laoreet etiam pretium sagittis.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-testimonios">
+                        <div class="card-img"> <img src="../Templates/IMG/mujer.jpg" /> </div>
+                        <div class="testimonio-text">
+                            <h4>Amanda Tellez</h4>
+                            <p>Nisl cursus dui libero augue imperdiet cras porttitor, aptent eu orci laoreet etiam pretium sagittis.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-testimonios">
+                        <div class="card-img"> <img src="../Templates/IMG/hombre2.jpg" /> </div>
+                        <div class="testimonio-text">
+                            <h4>Camilo Torres</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cubilia, nisl cursus dui libero augue imperdiet cras porttitor.</p>
+                        </div>
+                    </div>
+
+                    <div class="card-testimonios">
+                        <div class="card-img"> <img src="../Templates/IMG/mujer2.jpg" /> </div>
+                        <div class="testimonio-text">
+                            <h4>Sandra Ramirez</h4>
+                            <p>Nisl cursus dui libero augue imperdiet cras porttitor, aptent eu orci laoreet etiam pretium sagittis.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+    <!-- Footer -->
+
+        <footer class="footer">
+           <div class="skew-arriba"></div>
+            <div class="deg-footer"></div>
+            <div class="ejeZfooter">
+                <div class="footer-content">
+                    <div class="footer-title">
+                        <h2 id="Contacto">Formulario de contacto</h2>
+                        <hr />
+                    </div>
+
+                    <div class="formulario-content">
+                        <div class="formulario">
+                            <label for="user">Nombre: </label>
+                            <input type="text" id="user" placeholder="Ingrese su nombre" />
+
+                            <label for="email">Correo electrónico: </label>
+                            <input type="email" id="email" placeholder="Ingrese su correo electrónico" />
+
+                            <label for="mensaje">Escriba su mensaje: </label>
+                            <textarea name="mensaje" id="mensaje"></textarea>
+
+                            <div class="send"><button>Enviar</button></div>
+
+                            <div class="mensaje-form">
+                                <p>Escribenos un mensaje, con gusto tendras una respuesta de parte de nosotros en muy poco tiempo.</p>
+                            </div>
+                          
+                        </div>
+                       
+                    </div>
+
+                   <div class="footer-text">
+                        <p>&copy: Alejandro Vásquez - 2020 // Todos los derechos reservados</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <!-- Scripts -->
+
+    <script src="https://kit.fontawesome.com/873c7fb723.js" crossorigin="anonymous"></script>
+    <script src="../Templates/JS/Principal.js"></script>
+
+</body>
+</html>
